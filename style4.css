@@ -1,0 +1,36 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: deepskyblue;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    transition: 0.5s;
+}
+
+div:hover {
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    transition: 0.5s;
+}
+
+h1::first-letter {
+    color: red;
+    font-size: 50px;
+    border-radius: 10px;
+    background-color: blue;
+}
+
+a:link {
+    color: deeppink;
+}
+
+a:visited {
+    color: olivedrab;
+}
+
+a:active {
+    color: royalblue;
+}
